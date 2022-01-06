@@ -5,8 +5,9 @@ from payslip.payslip import command_help, migrate_db, destroy, generate_payslip
 if __name__ == "__main__":
     command_help()
     while True:
+        print("Type 'Exit' to stop run")
         command = input("\nType your command: ")
-        if command.lower() == 'term':
+        if command.lower() == 'exit':
             break
         elif command.lower() == 'help':
             command_help()

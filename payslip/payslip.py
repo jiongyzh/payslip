@@ -20,8 +20,8 @@ def command_help():
     3. Destroy
        -- Drop the created tables
 
-    4. Term
-       -- Terminate the script
+    4. Exit
+       -- To exist
     '''
     print(help_str)
 

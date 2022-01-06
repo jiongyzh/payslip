@@ -17,7 +17,7 @@ docker run -it payslip python -m unittest payslip/tests/payslip.py
 
 To run the application
 ```
-docker run -it  payslip ./manage.py
+docker run -it  payslip python manage.py
 ```
 * Make sure run 'Migrate' command first to create the table and import the data
 
