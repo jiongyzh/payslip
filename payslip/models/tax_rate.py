@@ -39,6 +39,7 @@ def get_tax_rates(income, cur):
     """ Get valid rates for a specific income
      income: Int
      cur: Cursor
+     return: An Array of Tuples
     """
     sql = '''SELECT income_from, income_to, rate from tax_rate WHERE income_from <= ? ORDER BY income_from'''
     cur.execute(sql, (income,))
