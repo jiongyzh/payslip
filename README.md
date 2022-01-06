@@ -11,7 +11,7 @@ docker build -t payslip .
 
 To run unit tests
 ```
-docker run -it  payslip python -m unittest payslip/tests/payslip.py
+docker run -it payslip python -m unittest payslip/tests/payslip.py
 ```
 * Need to cover more methods in future
 
