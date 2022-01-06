@@ -13,18 +13,18 @@ To run unit tests
 ```
 docker run -it payslip python -m unittest payslip/tests/payslip.py
 ```
-* Need to cover more methods in future
+** Need to cover more methods in future
 
 To run the application
 ```
 docker run -it  payslip python manage.py
 ```
-* Make sure run 'Migrate' command first to create the table and import the data
+** Make sure run 'Migrate' command first to create the table and import the data
 
 
 ###
 You can also directely run this application on your local if Python3 is installed.
-Just got to the directory where manage.py sits and run
+Just go to the directory where manage.py sits and run
 ```
 python -m unittest payslip/tests/payslip.py
 python manage.py
